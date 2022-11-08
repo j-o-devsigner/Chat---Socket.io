@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#messages {
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 350px;
+    overflow: auto;
+    border: 1px solid #222;
+    border-radius: 3%;
+    box-shadow: 0px 0px 10px #333 inset;
+}
+
+.message {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: antiquewhite;
+}
+
+form {
+    width: 30%;
+    margin: 20px auto;
+}
